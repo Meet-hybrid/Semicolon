@@ -1,3 +1,9 @@
+/*	⦁	prompt user to enter value for temperature and store
+	⦁	check if temperature is less than zero and print freezing if not,
+	⦁	check if temperature is less than or equal fifteen and show cold. if not, 
+	⦁	check if temperature is less than or equal twenty five and print warm. if not,
+	⦁	print hot */
+
 import java.util.Scanner;
 public class temperatureChecker {
     public static void main(String[] args) {
