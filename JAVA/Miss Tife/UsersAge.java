@@ -19,6 +19,7 @@ public class UsersAge {
 	int ageThree = input.nextInt();
 
 	int oldest = ageOne;
+ 
 
 	if(ageTwo > oldest ){
 	oldest = ageTwo;
@@ -29,6 +30,7 @@ public class UsersAge {
 	}
 
 	int youngest = ageOne;
+	
 
 	if(ageTwo < youngest){
 	youngest = ageTwo;
@@ -38,8 +40,8 @@ public class UsersAge {
 	youngest = ageThree;
 	}
 
-	System.out.println("Youngest is " + youngest);
-	System.out.println("oldest is " + oldest);
+	System.out.println("Youngest is " + yongest + nameOne == nameTwo == nameThree);
+	System.out.println("Oldest is " + oldest + nameOne == nameTwo == nameThree);
 	
     }
 }
