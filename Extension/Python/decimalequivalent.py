@@ -1,11 +1,10 @@
-
-binary = input("Enter a binary number: ")
+binary = int(input("Enter a binary number: "))
 
 total = 0
 
-
-for digit in binary:
-    digit = int(digit)     
-    total = total * 2 + digit
+while binary > 0:
+    last_digit = binary % 10      
+    total = total * 2 + last_digit
+    binary = binary // 10       
 
 print("Decimal equivalent is:", total)
