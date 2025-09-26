@@ -8,7 +8,7 @@ public class VowelAndConsonant {
 
 	if ("aeiouAEIOU".indexOf(ch) != -1) 
 	System.out.println("Vowel");
-	else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'A'))
+	else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
 	
 	System.out.println("Consonant");
 	

@@ -40,8 +40,8 @@ public class UsersAge {
 	youngest = ageThree;
 	}
 
-	System.out.println("Youngest is " + yongest + nameOne == nameTwo == nameThree);
-	System.out.println("Oldest is " + oldest + nameOne == nameTwo == nameThree);
+	System.out.println("Youngest is " + youngest);
+	System.out.println("Oldest is " + oldest);
 	
     }
 }
