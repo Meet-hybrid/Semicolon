@@ -4,9 +4,9 @@ public class TaskFive {
 	int count = 1;
 	while (counter <= 10) {
 		if(counter % 4 == 0 )
-			for(count= 1;count<=5;count++){
+			for(count= 1; count <= 5; count++){
 
-				System.out.print( counter);
+				System.out.print(counter);
 				}
 		
 	
